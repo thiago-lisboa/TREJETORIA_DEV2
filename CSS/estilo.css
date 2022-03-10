@@ -1,0 +1,66 @@
+.botao {
+  width: 100%;
+  right: 10px;
+}
+#logo {
+    width: 140px;
+    height: 160px;
+    margin-bottom: 0%;
+    padding-top: 50px;
+    padding-bottom: 0%;
+    position: absolute;
+    
+   }
+
+   #menu {
+     margin-left: 150px;
+   }
+
+  body{
+    
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: "Fredoka One"; */
+    
+  }
+   
+
+
+   #principal {
+     /* background-image: url("../imagens/Capa1.jpg"); */
+     background-attachment: fixed;
+     padding: 50px;
+     border: royalblue 2px solid; 
+
+   }
+
+   #tabela li {
+     /* border: 1px solid red; */
+     list-style-type: none;
+     /* font-weight: bold; */
+   }
+
+   /* .bordaGeral {
+     border: red 1px solid;
+   } */
+
+   
+
+   /* li:hover {
+     background-color: orange;
+   } */
+   li {
+     font-weight: bold;
+   }
+
+   button:active {
+     background: orange;
+   }
+
+   .center {
+    // modificado
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
